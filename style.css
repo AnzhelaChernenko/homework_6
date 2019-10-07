@@ -1,0 +1,292 @@
+*{
+    transition: all .1s ease-in;
+    margin: 0px;
+    background-color: #258CC1;
+}
+
+body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+    height: 100vh;
+    color: white;
+}
+
+li{
+    display: inline-block;
+    border-style: solid;
+    border-color: white;
+    vertical-align: top;
+    height: 25%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+
+    }
+.first_line{
+    background-color: #2793CB;
+    width: calc(50% - 10px);
+    border-right: transparent;
+    display: inline-block;
+
+}
+.next_line{
+    background-color: #24BDCB;
+    width: calc(25% - 10px - 1px);
+    border-right: transparent;
+    display: inline-block;
+}
+
+h5,h3,i{
+    background-color: transparent;
+}
+
+.third{
+    background-color: #986F95;
+    width: calc(25% - 10px - 1px);
+    display: inline-block;
+
+
+}
+
+
+.line{
+    display: inline-block;
+    border-style: solid;
+    border-color: white;
+    vertical-align: top;
+    height: 25%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+
+
+}
+
+.line_2,.line_3,.line_4{
+    border-top-color: transparent;
+}
+.line{
+    background-color: #C75442;
+    width: calc(25% + 1px);
+    border-right: transparent;
+    border-top: transparent;
+
+}
+
+#line_2{
+    background-color: #E77145;
+    width: calc(25% - 10px);
+    border-top: transparent;
+    border-right: none;
+}
+
+#line_3{
+    background-color: #FFCB5D;
+    width: calc(25% - 10px - 2px);
+    border-top: none;
+    border-right: transparent;
+
+}
+.line_4{
+    background-color: #93C397;
+    width:calc(25% - 10px - 1px);
+    border-top: transparent;
+
+}
+
+
+.square{
+    display: inline-block;
+    border-style: solid;
+    border-color: white;
+    vertical-align: top;
+    height: 25%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+
+
+}
+
+.square_2,.square_3{
+    border-top-color: transparent;
+}
+.square{
+    background-color: #5E9494;
+    width: calc(25% + 1px);
+    border-right: transparent;
+    border-top: transparent;
+
+}
+
+#square_2{
+    background-color: #CF7294;
+    width: calc(50% - 22px);
+    border-top: transparent;
+    border-right: none;
+
+}
+
+#square_3{
+    background-color: #288D62;
+    width: calc(25% - 10px - 1px);
+    border-top: transparent;
+
+    }
+#rectangle{
+    background-color: #636996;
+    width: calc(100% - 32px);
+    border-top: transparent;
+}
+
+p{
+    color: #B2E7FD;
+    font-size: 14px;
+}
+
+h2,p {
+    position: relative;
+    left: 40px;
+}
+
+ul:hover .first_line{
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+
+ul:hover .first_line:hover{
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    background-color: #2793CB;
+}
+
+ul{
+    font-size: 0;
+    width: 100%;
+display: inline-block;
+}
+li{
+    font-size: 18px;
+}
+.box{
+    display: contents;
+}
+ul:hover .next_line{
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+
+ul:hover .next_line:hover{
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    background-color: #24BDCB;
+}
+ul:hover .third{
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+
+ul:hover .third:hover{
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    background-color: #986F95;
+}
+
+ul:hover .line{
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+
+ul:hover .line:hover{
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    background-color: #C75442;
+}
+ul:hover #line_2{
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+
+ul:hover #line_2:hover{
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    background-color: #E77145;
+}
+
+ul:hover #line_3{
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+
+ul:hover #line_3:hover{
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    background-color: #FFCB5D;
+}
+
+ul:hover .line_4{
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+
+ul:hover .line_4:hover{
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    background-color: #93C397;
+}
+
+ul:hover .square{
+
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+ul:hover .square:hover{
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    background-color: #5E9494;
+}
+
+ul:hover #square_2{
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+
+ul:hover #square_2:hover{
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    background-color: #CF7294;
+}
+
+ul:hover #square_3{
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+
+ul:hover #square_3:hover{
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    background-color: #288D62;
+}
+ul:hover #rectangle{
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+
+}
+
+ul:hover #rectangle:hover{
+    background: rgba(99, 105, 150, 0);
+    cursor: pointer;
+    background-color: #636996;
+}
